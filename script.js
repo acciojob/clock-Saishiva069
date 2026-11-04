@@ -7,7 +7,7 @@ setInterval(
 	function () {
 	let	currentDate = new Date();
 
-		timerDispaly.innerHTML = currentDate.toLocalString();
+		timerDisplay.innerHTML = currentDate.toLocalString();
 		
 	},1000
 )
