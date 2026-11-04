@@ -5,7 +5,7 @@ let currentDate = new Date();
 
 setInterval(
 	function () {
-		currentDate = new Date();
+	let	currentDate = new Date();
 
 		timerDispaly.innerHTML = currentDate.toLocalString();
 		
